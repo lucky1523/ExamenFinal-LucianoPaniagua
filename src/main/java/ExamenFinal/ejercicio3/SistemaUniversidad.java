@@ -51,7 +51,7 @@ public class SistemaUniversidad implements ISistemaInscripcion{
     public void showInfo(){
         System.out.println("nombre: "+ nombre);
         System.out.println("capacidad: "+ capacidad);
-        System.out.println("capacidad: "+ estudiantes);
+        System.out.println("estudiantes: "+ estudiantes.length);
         System.out.println("requisitos: "+ requisitos);
     }
 }

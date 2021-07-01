@@ -3,6 +3,8 @@ package ExamenFinal.ejercicio4;
 public class Client {
 
     public static void main(String[] args) {
+        //FINAL
+
         Proxy proxy = new Proxy(new Servidor(), new Servidor());
 
         proxy.registrar("Juan1", "720"); //id 1 no primo

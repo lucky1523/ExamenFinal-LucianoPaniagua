@@ -2,6 +2,7 @@ package ExamenFinal.ejercicio2;
 
 public class Client {
     public static void main(String[]args){
+        //FINAL
         CaudraElectrica caudraElectrica = new CaudraElectrica();
 
         AdaptorCuadraElectrica cuadraElectricaAdapatada = new AdaptorCuadraElectrica(caudraElectrica);

@@ -4,6 +4,8 @@ import java.util.ArrayList;
 
 public class Client {
     public static void main(String[]args){
+        //FINAL
+
         ISistemaInscripcion colegio = new SistemaColegio(new Facebook());
         int[] estudiantes = {1,2,3,4,5,6,7};
         ((SistemaColegio) colegio).setNombre("Santa Ana");

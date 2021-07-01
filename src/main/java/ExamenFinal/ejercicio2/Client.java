@@ -6,6 +6,7 @@ public class Client {
 
         AdaptorCuadraElectrica cuadraElectricaAdapatada = new AdaptorCuadraElectrica(caudraElectrica);
 
+        // aqui se puede ser al cuadratrack electrico adaptado y sus acciones
         System.out.println("Tipo cuadra: Electrica");
         cuadraElectricaAdapatada.llenarCombustible();
         cuadraElectricaAdapatada.estadoCombustible();

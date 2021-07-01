@@ -1,8 +1,6 @@
 package ExamenFinal.ejercicio3;
 
-import java.util.ArrayList;
-
-public class SistemaColegio implements ISistemaInscripcion{
+public class SistemaEscuela implements ISistemaInscripcion{
     private IRedSocial redSocial;
     private String nombre;
     private int capacidad;
@@ -41,9 +39,10 @@ public class SistemaColegio implements ISistemaInscripcion{
         this.requisitos = requisitos;
     }
 
-    public SistemaColegio(IRedSocial redSocial){
+    public SistemaEscuela(IRedSocial redSocial){
         this.redSocial=redSocial;
     }
+
     @Override
     public void nuevaRedSocial() {
         System.out.println("Agregando... ");
